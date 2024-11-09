@@ -1,4 +1,24 @@
-const products = [
+export const products = [
+  {
+    id: "id1",
+    image: "images/products/-5240091153636910988_121.jpg",
+    name:"Good plate",
+    rating: {
+      stars: 5,
+      count: 1
+    },
+    priceCents: 10000
+  },
+  {
+    id: "id2",
+    image: "images/products/IMG_20241025_085008.jpg",
+    name: "Cappuchino with art Sceleton",
+    rating: {
+      stars: 5,
+      count: 1
+    },
+    priceCents: 1000
+  },
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
